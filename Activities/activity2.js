@@ -14,6 +14,6 @@ function TotalAmount(totalPurchase, isMember) {
     return discounted_price;
 }
 
-console.log(Discount(120, 'True'));
-console.log(Discount(60, 'False'));
-console.log(Discount(30, 'False'));
+console.log(TotalAmount(120, 'True'));
+console.log(TotalAmount(60, 'False'));
+console.log(TotalAmount(30, 'False'));
